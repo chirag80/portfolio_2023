@@ -22,7 +22,7 @@ const Footer = () => {
       </button>
       Copyright &copy; {new Date().getFullYear()} Chirag Patel
       <br />
-      <div style={{width:`100%`, marginTop:`5px`, }}>This site is hosted on Azure</div>
+      <div style={{width:`100%`, marginTop:`5px`, }}>This site is hosted on Netlify</div>
       <Flex
         sx={{
           justifyContent: `center`,
