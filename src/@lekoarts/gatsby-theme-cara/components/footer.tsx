@@ -21,9 +21,9 @@ const Footer = () => {
         {isDark ? `Light` : `Dark`}
       </button>
       Copyright &copy; {new Date().getFullYear()} Chirag Patel
-      <br />
-      <div style={{width:`100%`, marginTop:`5px`, }}>This site is hosted on Netlify</div>
-      <Flex
+      {/* <br /> */}
+      {/* <div style={{width:`100%`, marginTop:`5px`, }}>This site is hosted on Netlify</div> */}
+      {/* <Flex
         sx={{
           justifyContent: `center`,
           alignItems: `center`,
@@ -32,8 +32,8 @@ const Footer = () => {
           fontWeight: `semibold`,
           a: { color: `text` },
         }}
-      >        
-        {` `}
+      >         */}
+        {/* {` `} */}
         {/* <Link
           aria-label="Link to the theme's GitHub repository"
           sx={{ ml: 2 }}
@@ -41,12 +41,12 @@ const Footer = () => {
         >
           Theme
         </Link> */}
-        <div sx={{ mx: 1 }}>Theme by</div>
-        {` `}
+        {/* <div sx={{ mx: 1 }}>Theme by</div> */}
+        {/* {` `}
         <Link aria-label="Link to the theme author's website" href="https://www.lekoarts.de/en">
           LekoArts
-        </Link>     
-      </Flex>      
+        </Link>      */}
+      {/* </Flex>       */}
     </Box>
   )
 }
